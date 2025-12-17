@@ -17,3 +17,5 @@ public class AreaOfTriangle {
 
         // Convert area to square centimeters
         double areaInCm = areaInInches * 6.4516;
+
+    
