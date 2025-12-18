@@ -11,7 +11,7 @@ public class FactorsUsingWhile {
 
         // Check for positive integer
         if (number > 0) {
-
+ 
             System.out.println("Factors of " + number + " are:");
 
             int counter = 1;
