@@ -17,7 +17,7 @@ public class PowerOfNumber {
 
             int result = 1;
 
-            // Calculate power using for loop
+            // Calculate power using for loop 
             for (int i = 1; i <= power; i++) {
                 result = result * number;
             }
