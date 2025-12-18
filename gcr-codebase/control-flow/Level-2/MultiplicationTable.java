@@ -5,7 +5,7 @@ public class MultiplicationTable {
 
         Scanner input = new Scanner(System.in);
 
-        // Take user input
+        // Take user input 
         System.out.print("Enter a number: ");
         int number = input.nextInt();
 
