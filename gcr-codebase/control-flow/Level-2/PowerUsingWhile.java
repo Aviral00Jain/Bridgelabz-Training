@@ -9,7 +9,7 @@ public class PowerUsingWhile {
         System.out.print("Enter the number: ");
         int number = input.nextInt();
 
-        System.out.print("Enter the power: ");
+        System.out.print("Enter the power: "); 
         int power = input.nextInt();
 
         // Check for positive integers
