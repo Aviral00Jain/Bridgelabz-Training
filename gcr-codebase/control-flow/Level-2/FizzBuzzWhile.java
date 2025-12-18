@@ -12,7 +12,7 @@ public class FizzBuzzWhile {
         // Check for positive integer
         if (number > 0) {
 
-            int i = 1;
+            int i = 1; 
 
             // Loop using while
             while (i <= number) {
