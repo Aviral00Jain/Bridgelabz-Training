@@ -13,7 +13,7 @@ public class OddEvenNumbers {
         if (number > 0) {
 
             // Iterate from 1 to the number
-            for (int i = 1; i <= number; i++) {
+            for (int i = 1; i <= number; i++) { 
 
                 if (i % 2 == 0) {
                     System.out.println(i + " is an Even number");
