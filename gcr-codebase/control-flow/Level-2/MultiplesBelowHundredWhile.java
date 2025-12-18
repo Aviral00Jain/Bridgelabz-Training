@@ -11,7 +11,7 @@ public class MultiplesBelowHundredWhile {
 
         // Check for valid input
         if (number > 0 && number < 100) {
-
+ 
             System.out.println("Multiples of " + number + " below 100 are:");
 
             int counter = 1;
