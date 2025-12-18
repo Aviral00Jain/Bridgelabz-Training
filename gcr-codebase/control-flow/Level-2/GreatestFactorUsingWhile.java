@@ -13,7 +13,7 @@ public class GreatestFactorUsingWhile {
         if (number > 1) {
 
             int greatestFactor = 1;
-            int counter = number - 1;
+            int counter = number - 1; 
 
             // Find greatest factor using while loop
             while (counter >= 1) {
