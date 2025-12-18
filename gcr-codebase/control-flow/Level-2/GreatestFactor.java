@@ -10,7 +10,7 @@ public class GreatestFactor {
         int number = input.nextInt();
 
         // Check for positive integer
-        if (number > 1) {
+        if (number > 1) { 
 
             int greatestFactor = 1;
 
