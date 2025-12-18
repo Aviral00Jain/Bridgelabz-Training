@@ -7,7 +7,7 @@ public class MultiplesBelowHundred {
 
         // Take user input
         System.out.print("Enter a number: ");
-        int number = input.nextInt();
+        int number = input.nextInt(); 
 
         // Check for valid input
         if (number > 0 && number < 100) {
