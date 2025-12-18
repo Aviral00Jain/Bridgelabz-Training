@@ -21,7 +21,7 @@ public class FactorsOfNumber {
                 }
             }
 
-        } else {
+        } else { 
             System.out.println("Please enter a positive integer.");
         }
 
