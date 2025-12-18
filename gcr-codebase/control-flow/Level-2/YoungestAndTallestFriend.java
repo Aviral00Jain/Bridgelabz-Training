@@ -8,7 +8,7 @@ public class YoungestAndTallestFriend {
         // Input ages
         System.out.print("Enter Amar's age: ");
         int amarAge = input.nextInt();
-
+ 
         System.out.print("Enter Akbar's age: ");
         int akbarAge = input.nextInt();
 
