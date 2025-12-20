@@ -5,7 +5,7 @@ public class Copy2DTo1DArray {
 
         Scanner input = new Scanner(System.in);
 
-        // Take input for rows and columns
+        // Take input for rows and column
         System.out.print("Enter number of rows: ");
         int rows = input.nextInt();
 
