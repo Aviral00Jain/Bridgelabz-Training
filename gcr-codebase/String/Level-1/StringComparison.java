@@ -1,16 +1,16 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class StringComparison {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Take user input
         System.out.print("Enter first string: ");
-        String str1 = input.next();
+        String str1 = sc.next();
 
         System.out.print("Enter second string: ");
-        String str2 = input.next();
+        String str2 = sc.next();
 
         // Compare using custom method
         boolean charAtResult = compareStringsUsingCharAt(str1, str2);
@@ -28,7 +28,7 @@ public class StringComparison {
             System.out.println("Both methods give DIFFERENT results.");
         }
 
-        input.close();
+        sc.close();
     }
 
     // Method to compare strings using charAt()
