@@ -91,8 +91,22 @@ BridgeLabz-Training/
 👉 [Day 5 – Arrays](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
+### Day 6 – Java Methods
+(Date: 20-Dec-2025)
 
-### 🗓 Day 6 – Strings & Methods  
+Studied:
+Method declaration & definition
+Parameterized methods
+Return values & modular code design
+Practiced reusable function logic through programs.
+Submitted Submissions on Java Methods Practices.
+Maintained proper project folder structure.
+🔗 Code Link:
+[Day 6 – Java Methods](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/Methods)
+
+---
+
+### 🗓 Day 7 – Strings & Methods  
 *(Date: 22-Dec-2025)*
 
 - Studied String concepts:
@@ -108,11 +122,11 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 
 🔗 *Code Link:*  
-👉 [Day 6 – Strings & Methods](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/String)
+👉 [Day 7 – Strings & Methods](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/String)
 
 ---
 
-### 🗓 Day 7 – Built-in Functions & Extra Practice  
+### 🗓 Day 8 – Built-in Functions & Extra Practice  
 *(Date: 23-Dec-2025)*
 
 - Practiced Java built-in functions.
@@ -125,4 +139,4 @@ BridgeLabz-Training/
 - Committed and pushed all changes successfully.
 
 🔗 *Code Link:*  
-👉 [Day 7 – Built-in Functions](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/Extras)
+👉 [Day 8 – Built-in Functions](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/Extras)
