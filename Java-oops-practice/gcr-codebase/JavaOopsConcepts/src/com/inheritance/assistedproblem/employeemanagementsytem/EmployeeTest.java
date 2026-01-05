@@ -1,0 +1,19 @@
+package com.inheritance.assistedproblem.employeemanagementsytem;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee e1 = new Manager("Ayush", 192345687, 99000, 25);
+		e1.displayDetails();
+		
+		Employee e2 = new Developer("Ankit", 23459876, 75000, "java full stack");
+		e2.displayDetails();
+		
+		Employee e3 = new Intern("Amit", 56987623, 45000, "4 months");
+		e3.displayDetails();
+
+	}
+
+}
