@@ -219,4 +219,4 @@ class InventoryLinkedList {
         }
         return slow;
     }
-}
+} 
