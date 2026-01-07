@@ -42,10 +42,10 @@ BridgeLabz-Training/
 │   ├── leet-code-codebase/
 │   └── scenario-based-codebase/
 └── README.md
-🔗 Repository Structure Link:
+🔗[ Repository Structure Link:](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice)
 repository structure
 
-🔗 Basic java programs Link: [day 2 practice]()
+🔗 Basic java programs Link: [day 2 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisites)
 
 ---
 
@@ -59,7 +59,7 @@ User input using Scanner
 Solved practice programs based on fundamentals.
 Committed and pushed solutions to repository.
 🔗 Code Link:
-day 3 practice
+[day 3 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ### 📅 Day 4 – Java Control Flow
 (Date: 18-Dec-2025)
@@ -71,7 +71,7 @@ break & continue
 Followed clean‑code and indentation conventions.
 Practiced control‑flow programming problems.
 Submitted Control Flow Practice Programs.
-🔗 Code Link: day 4 practice
+🔗 Code Link: [day 4 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 ---
 
@@ -85,7 +85,7 @@ Implemented array‑based problem statements.
 Submitted Arrays Practice Programs.
 Updated arrays folder and pushed to GitHub.
 🔗 Code Link:
-day 5 practice
+[day 5 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
 ### 📅 Day 6 – Java Methods
@@ -99,7 +99,7 @@ Practiced reusable function logic through programs.
 Submitted Submissions on Java Methods Practices.
 Maintained proper project folder structure.
 🔗 Code Link:
-day 6 practice
+[day 6 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 
 ---
 ### 📅 Day 7 – Java Strings
@@ -114,7 +114,7 @@ Class timing update noted:
 ⏰ 11:00 AM to 5:30 PM
 Submitted Submissions on Java String Practices.
 🔗 Code Link:
-day 7 practice
+[day 7 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/String)
 
 ---
 ### 📅 Day 8 – EXTRAS: Built‑in Functions & Java String Handling
@@ -129,7 +129,7 @@ Built‑In Function Practice Problems
 String Handling Practice Problems
 Improved code indentation, naming & comments.
 🔗 Code Link:
-day 8 practice
+[day 8 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/String)
 
 ---
 ### 📅 Day 9 – Scenario‑Based Java Problems
@@ -150,7 +150,7 @@ Problems Implemented:
 🧮 Maya’s BMI Fitness Tracker
 
 🔗 Code Link:
-day 9 practice
+[day 9 practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/core-java-practice/scenario-based)
 
 ---
 ✅ Summary Built strong fundamentals in Git, GitHub, and Core Java
@@ -172,7 +172,7 @@ Employee Details Program Area & Circumference of Circle Book Details Management 
 
 Student Report & Grade Calculator ATM / Bank Account Simulation Palindrome String Checker Movie Ticket Booking System Shopping Cart Simulation
 
-🔗 Code Link: 👉 Objects and Classes
+🔗 Code Link: 👉 [Objects and Classes](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectandclass)
 
 ---
 ### 📅 Day 2 – Constructors, Access Modifiers & OOP Practice
@@ -180,7 +180,7 @@ Date: 27-Dec-2025
 
 Strengthened understanding of constructors and access control mechanisms. Focused on writing modular, readable, and reusable Java code. Applied best practices for class design and packaging. Constructor Practice Default constructors Parameterized constructors Constructor chaining Copy constructors Programs Implemented Book Management System Hotel Booking System Library Book System Car Rental System Instance vs Class Variables Product Inventory System Online Course Management Vehicle Registration System Access Modifiers Practice University Management System Book Library System with EBook subclass Bank Account Management System Employee Records with Manager subclass
 
-🔗 Code Link: 👉 Constructor and Access Modifiers
+🔗 Code Link: 👉 [Constructor and Access Modifiers](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/levelone)
 
 ---
 ### 📅 Day 3 – Static, Final & Object Behavior
@@ -189,7 +189,7 @@ Date: 29-Dec-2025
 Learned how static members are shared across objects. Used the final keyword to enforce constants and immutability. Applied instanceof to verify object types at runtime. Practice Programs BankAccount Book Library Company Patient Product Student Vehicle OOP Principles Applied Encapsulation Proper class design Method implementation
 
 🔗 Code Link:
-👉 Java keyword
+👉 [Java keyword](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
 
 ---
 ### 📅 Day 4 – Object Modelling & Class Diagrams
@@ -200,7 +200,7 @@ Focused on Object-Oriented Design (OOD) and system modeling using UML. Practiced
 Concepts Practiced Object Modelling Object-Oriented Design Principles Association, Aggregation, and Composition Diagrams Covered Class Diagrams Object Diagrams Sequence Diagrams Problems Solved Library and Books (Aggregation) Bank and Account Holders (Association) Company and Departments (Composition) Hospital, Doctors, and Patients (Association and Communication) University Management System School Results Application Grocery Store Bill Generation Application E-commerce Platform with Orders, Customers, and Products
 
 🔗 Code Link:
-👉 Object Modelling and class Diagram
+👉 [Object Modelling and class Diagram](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 
 ---
 ### 📅 Day 5 – OOPs Inheritance (All Types)
@@ -209,7 +209,7 @@ Date: 31-Dec-2025
 Studied inheritance as a mechanism for code reuse. Implemented method overriding in derived classes. Observed runtime polymorphism through inheritance. Types of Inheritance Single Level Inheritance Multilevel Inheritance Hierarchical Inheritance Key Notes Constructors are invoked using the super() keyword. Access modifiers control member visibility in subclasses. Inheritance improves scalability and maintainability.
 
 🔗 Code Link:
-👉 Inheritance in Java
+👉 [Inheritance in Java](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
 ---
 ### 📅 Day 6 – OOP Principles: Encapsulation, Polymorphism, Interfaces & Abstract Classes
@@ -218,7 +218,7 @@ Date: 1-Jan-2026
 Encapsulation Used private variables to protect data. Implemented getters and setters with validation. Designed immutable classes where applicable. Polymorphism Leveraged interfaces for flexible behavior. Relied on runtime method binding. Avoided unnecessary type casting. Interfaces Defined clear contracts for shared functionality. Implemented multiple interfaces when needed. Preferred composition over inheritance. Abstract Classes Shared common logic across related classes. Combined abstraction with implementation effectively. Avoided deep inheritance structures. Practice Summary Solved multiple OOP-based Java problems. Followed clean coding standards and naming conventions. Focused on maintainable and readable code.
 
 🔗 Code Link:
-👉 Encapsulation, Polymorphism & Interfaces
+👉 [Encapsulation, Polymorphism & Interfaces](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
 
 
 ### ✅ Week 2 Summary
@@ -242,8 +242,9 @@ Used previous and next references for traversal and updates Circular Linked List
 
 Implemented circular traversal using tail.next = head Algorithmic Thinking
 
-Applied traversal-based logic Compared node values and maintained counters Designed efficient solutions using linked list properties ✅ Practice Summary
+Applied traversal-based logic Compared node values and maintained counters Designed efficient solutions using linked list properties
 
+### ✅ Practice Summary
 Solved 9 Linked List–based programs covering Singly, Doubly, and Circular Linked Lists:
 
 Singly Linked List
@@ -273,7 +274,7 @@ E-Wallet Application
 Smart Home Automation System
 
 🔗 Code Link:
-👉 Java OOPS – Day 1
+👉 [Java OOPS – Day 1](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
 
 ---
 ### 📅 Day 2 – Stack, Queue, Hashing & Advanced OOPS
@@ -312,7 +313,7 @@ MyBank – Customer Account Management System Core banking module for accounts, 
 Practice Summary Built backend logic for scalable applications Applied polymorphism across vehicle and account types Encapsulated sensitive data such as fare, balance, and ratings Implemented clean separation of responsibilities
 
 🔗 Code Link:
-👉 Java OOPS – Day 2
+👉 [Java OOPS – Day 2](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
 
 ---
 ### 📅 Day 3 – Sorting Algorithms & Enterprise OOPS
@@ -348,4 +349,4 @@ SwiftCart – Grocery Shopping Application Backend cart and checkout system for 
 Practice Summary Modeled enterprise-level Java applications Applied strong encapsulation for grades and prices Used interfaces for extensibility Implemented polymorphic behaviors for users and products
 
 🔗 Code Link:
-👉 Java OOPS – Day 3
+👉 [Java OOPS – Day 3](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
