@@ -45,7 +45,7 @@ Organized all constructor and static concept programs systematically in the java
 
 ---
 
-📅 Day 11 – Java OOPS: Core Java Keywords
+### 📅 Day 11 – Java OOPS: Core Java Keywords
 (Date: 29-Dec-2025) (Focus: static, final, this, instanceof)
 
 -> Studied essential Java keywords and their role in OOPS-based programming.
@@ -66,4 +66,4 @@ Organized all constructor and static concept programs systematically in the java
 
 -> Organized all keyword-based programs systematically in the java-oops-practice branch.
 
-🔗 Code Link: 👉 Day 10 – Constructors & Instance vs Class Concepts
+🔗 Code Link: 👉 [Day 11 – Core Java Keywords](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
