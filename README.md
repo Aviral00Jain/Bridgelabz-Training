@@ -18,7 +18,9 @@
 
 🔗 Code Link: 👉[ Day 9- class and objects](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectandclass)
 
-📅 Day 10 – Java OOPS: Constructors & Class-Level Concepts
+---
+
+### 📅 Day 10 – Java OOPS: Constructors & Class-Level Concepts
 (Date: 27-Dec-2025) (Focus: Constructors, Instance Variables vs Class Variables & Methods)
 
 Learned the concept of Constructors in Java and understood their role in initializing objects.
@@ -39,7 +41,9 @@ Followed proper naming conventions, indentation, and consistent formatting acros
 
 Organized all constructor and static concept programs systematically in the java-oops-practice branch.
 
-🔗 Code Link: 👉 Day 10 – Constructors & Instance vs Class Concepts
+🔗 Code Link: 👉 [Day 10 – Constructors & Instance vs Class Concepts](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/levelone)
+
+---
 
 📅 Day 11 – Java OOPS: Core Java Keywords
 (Date: 29-Dec-2025) (Focus: static, final, this, instanceof)
