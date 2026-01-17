@@ -1,0 +1,5 @@
+package com.inheritance.singleinheritance.bookmanagementsystem;
+
+public class Author {
+
+}

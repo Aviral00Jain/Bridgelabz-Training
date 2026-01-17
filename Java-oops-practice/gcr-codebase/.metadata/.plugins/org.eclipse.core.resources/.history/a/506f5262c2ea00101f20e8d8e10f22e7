@@ -1,0 +1,32 @@
+package com.linkedlist.socialmediafriendconnections;
+
+public class SocialMediaApp {
+
+    public static void main(String[] args) {
+
+        SocialMediaList sm = new SocialMediaList();
+
+        sm.addUser(1, "Aman", 21);
+        sm.addUser(2, "Riya", 20);
+        sm.addUser(3, "Karan", 22);
+        sm.addUser(4, "Neha", 19);
+
+        sm.addFriend(1, 2);
+        sm.addFriend(1, 3);
+        sm.addFriend(2, 3);
+        sm.addFriend(2, 4);
+
+        sm.displayFriends(1);
+        sm.displayFriends(2);
+
+        sm.mutualFriends(1, 2);
+
+        sm.countFriends(2);
+
+        sm.searchByName("Karan");
+        sm.searchById(4);
+
+        sm.removeFriend(1, 3);
+        sm.displayFriends(1);
+    }
+}

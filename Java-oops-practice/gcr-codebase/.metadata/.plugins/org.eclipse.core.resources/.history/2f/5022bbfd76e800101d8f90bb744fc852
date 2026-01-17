@@ -1,0 +1,5 @@
+package com.encapsulationandpolymorphism.ecommerceplatform;
+
+public class Taxable {
+
+}

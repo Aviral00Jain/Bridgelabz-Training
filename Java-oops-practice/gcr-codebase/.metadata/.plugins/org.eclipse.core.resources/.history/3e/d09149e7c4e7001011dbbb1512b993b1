@@ -1,0 +1,5 @@
+package com.inheritance.multilevelinheritance.educationalcoursehierarchy;
+
+public class OnlineCourse {
+
+}

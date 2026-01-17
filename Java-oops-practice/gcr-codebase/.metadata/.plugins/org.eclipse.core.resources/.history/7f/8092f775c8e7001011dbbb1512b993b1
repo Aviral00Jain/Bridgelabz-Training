@@ -1,0 +1,5 @@
+package com.inheritance.singleinheritance.smarthomedevices;
+
+public class Thermostat {
+
+}

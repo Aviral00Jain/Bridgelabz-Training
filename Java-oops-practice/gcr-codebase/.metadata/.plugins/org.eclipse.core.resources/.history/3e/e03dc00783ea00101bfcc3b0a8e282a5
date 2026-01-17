@@ -1,0 +1,5 @@
+package com.linkedlist.roundrobinschedulingalgorithm;
+
+public class ProcessNode {
+
+}

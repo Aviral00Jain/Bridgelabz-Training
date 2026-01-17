@@ -1,0 +1,5 @@
+package com.filereader.inputstreamreader;
+
+public class ReadWriteFile {
+
+}
