@@ -1,1 +1,17 @@
-/.metadata/
+# ===== Eclipse =====
+.metadata/
+.project
+.classpath
+
+# ===== Build output =====
+bin/
+out/
+target/
+*.class
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
