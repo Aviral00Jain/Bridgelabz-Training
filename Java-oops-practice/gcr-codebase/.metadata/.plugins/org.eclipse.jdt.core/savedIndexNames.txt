@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\acer\OneDrive\Desktop\java programming workspace\Java-oops-practice\gcr-codebase\.metadata\.plugins\org.eclipse.jdt.core
-717902337.index
-1865797976.index
-1240006987.index

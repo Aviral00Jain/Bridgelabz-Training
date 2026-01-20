@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.linkedlist.socialmediafriendconnections.FrienndNode.java&apos; to &apos;FriendNode.java&apos;&#x0D;&#x0A;- Original project: &apos;java-dsa-practice&apos;&#x0D;&#x0A;- Original element: &apos;com.linkedlist.socialmediafriendconnections.FrienndNode.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.linkedlist.socialmediafriendconnections.FriendNode.java&apos;" description="Rename compilation unit &apos;FrienndNode.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/gcr-codebase\/JavaDsaConcepts\/src&lt;com.linkedlist.socialmediafriendconnections{FrienndNode.java" name="FriendNode.java" references="false" stamp="1767674017898" version="1.0"/>
-</session>
