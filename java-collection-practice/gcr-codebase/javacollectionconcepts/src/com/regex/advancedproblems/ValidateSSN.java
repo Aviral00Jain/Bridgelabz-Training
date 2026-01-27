@@ -1,0 +1,21 @@
+package com.regex.advancedproblems;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ValidateSSN {
+	public static void main(String[] args) {
+
+		String text = "My SSN is 674-74-7574.";
+
+		String regex = "\\b\\d{3}-\\d{2}-\\d{4}\\b";
+
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(text);
+
+		if (matcher.find()) {
+			System.out.println("" + matcher.group() + "\" is valid");
+		} else {
+			System.out.println("invalid SSN");
+		}
+	}
+}
