@@ -1,0 +1,82 @@
+-- create database
+CREATE DATABASE trasaction_management;
+USE trasaction_management;
+
+-- create table accout
+CREATE TABLE account(
+account_id INT PRIMARY KEY,
+account_holder VARCHAR(50),
+balance DECIMAL(10, 2)
+) ENGINE = InnoDB;
+
+INSERT INTO account VALUES
+(101, "Alice", 2000.00),
+(102, "Bob", 3000.00),
+(103, "Charlie", 1200.00);
+
+
+-- view account table
+select * FROM account;
+
+-- create transaction history table 
+create TABLE transaction_history (
+transaction_id INT auto_increment PRIMARY KEY,
+from_account INT,
+to_account INT,
+amount DECIMAL(10,2),
+transaction_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+-- view history transaction table
+select * from transaction_history;
+
+-- Check balance
+SELECT account_id, balance
+FROM account
+WHERE account_id = 101 And balance>=3000;
+
+--table
++------------+----------+
+| account_id | balance  |
++------------+----------+
+|        101 | 10000.00 |
++------------+----------+
+
+-- Transfer ₹3000 from 101 to 102
+START TRANSACTION;
+
+SELECT balance
+FROM account
+WHERE account_id = 101
+FOR UPDATE;
+
+UPDATE account
+SET balance = balance - 3000
+WHERE account_id = 101 AND balance >= 3000;
+
+UPDATE account
+SET balance = balance + 3000
+WHERE account_id = 102;
+
+INSERT INTO transaction_history (from_account, to_account, amount)
+VALUES (101, 102, 3000);
+
+COMMIT;
+
+
+
+
+-- View results
+SELECT * FROM account;
++------------+----------------+---------+
+| account_id | account_holder | balance |
++------------+----------------+---------+
+|        101 | Ayus          | 99000.00 |
+|        102 | BOB            | 8000.00 |
+|        103 | Janamjay        | 8000.00 |
++------------+----------------+---------+
+SELECT * FROM transaction_history;
++----------------+--------------+------------+---------+---------------------+
+| transaction_id | from_account | to_account | amount  | transaction_time    |
++----------------+--------------+------------+---------+---------------------+
+|              1 |          101 |        102 | 3000.00 | 2026-02-08 14:48:36 |
++----------------+--------------+------------+---------+---------------------+
