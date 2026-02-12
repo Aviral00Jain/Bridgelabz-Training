@@ -1,0 +1,41 @@
+Create database employee_management;
+USE employee_Management;
+
+
+Create table employee( 
+emp_id INT primary key,
+ emp_name varchar(50),
+ salary decimal(10,2));
+ 
+ /* inserting employee */
+ 
+ Insert into employee Values
+     (101, "Alice", 38000),
+     (102, "Ayush", 99000),
+     (103, "Samkaran", 29000),
+     (104, "Amarnayak", 35000),
+     (105, "RajniKant", 78000);
+    
+    
+     /* View all employee 8*/
+     
+    Select * from employee;
+    
+    /* Update employee salaray */
+    
+    UPDATE employee SET salary = 55000
+    WHERE emp_id = 101;
+    /* Delete employee */
+    
+    DELETE from employee WHERE
+    emp_id = 104;
+    
+    /* Search employee from name */
+    
+    Select * from employee
+    WHERE emp_name = "Ayush";
+    
+    
+    
+    
+    
