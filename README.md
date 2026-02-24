@@ -490,21 +490,21 @@ BridgeLabz-Training
 
 ## 🔗 Code Repository
 - **Scenario-Based OOPS Practice**  
-  👉 [Scenario Based](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/oopspracticescenariobasedquestions/src/com/LoanBuudy)
+  👉 [Scenario Based](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com/loanbuddy)
   
  👉[Searching](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/searching)
 
 ---
 
-## Day 6 – Data Structures: Time & Space Complexity
+## Day 6 – Data Structures: Hashmap Implementation
 (Date: 07-01-2026) (Focus: Analyzing Algorithm Efficiency)
 
 - Studied time and space complexity, explored common Big-O notations, and compared algorithms based on efficiency and scalability.
 - **Scenario-Based OOPS Practice**  
-  👉 [Scenario Based: parkease](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/oopspracticescenariobasedquestions/src/com/parkease)
+  👉 [Scenario Based: parkease](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com/parkease)
   
 🔗 **Code Link:** 
- 👉 [Data Structures: Time & Space Complexity](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/algorithmruntimeanalysis)
+ 👉 [HashMap Implementation](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/hashmapsandhashfucntion)
 
 ---
 
@@ -518,7 +518,7 @@ BridgeLabz-Training
 - Improved system design & interview readiness  
 
 🔗 **Code:**  
-👉 [Scenario-Based OOP Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/oopspracticescenariobasedquestions/src/com)
+👉 [Scenario-Based OOP Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
 
 ---
 
@@ -535,7 +535,7 @@ BridgeLabz-Training
 - **AmbulanceRoute:** Circular Linked List  
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
 
 ---
 
@@ -556,9 +556,9 @@ BridgeLabz-Training
 - **GameBox** – Mobile Game Distribution Platform
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
 
-👉 [Scenario-Based OOPs Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/oopspracticescenariobasedquestions/src/com)
+👉 [Scenario-Based OOPs Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
 
 ---
 
@@ -577,9 +577,9 @@ BridgeLabz-Training
 - **PayXpress** – Utility Bill Payment System
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
 
-👉 [Scenario-Based OOPs Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/oopspracticescenariobasedquestions/src/com)
+👉 [Scenario-Based OOPs Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
 
 ---
 
@@ -601,8 +601,8 @@ BridgeLabz-Training
 - **Generics** - Type Parameters,Generic Classes,Generic Methods,Bounded Type Parameters,Wildcards
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
-👉 [Java Collection Generics ](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/generic)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
+👉 [Java Collection Generics ](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/generic)
 
 ---
 
@@ -619,11 +619,11 @@ BridgeLabz-Training
 - **CropMonitor** – Sensor Data Ordering
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
-👉 [Java Collection listinterface](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/listinterface)
-👉 [Java Collection mapinterface](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/mapinterface)
-👉 [Java Collection queueinterface](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/queueinterface)
-👉 [Java Collection setinterface](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/setinterface)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
+👉 [Java Collection listinterface](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/listinterface)
+👉 [Java Collection mapinterface](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/mapinterface)
+👉 [Java Collection queueinterface](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/queueinterface)
+👉 [Java Collection setinterface](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/setinterface)
 
 ---
 
@@ -638,8 +638,9 @@ BridgeLabz-Training
 - **GeoMeasure**
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
-👉 [Scenario-Based OOPs Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/oopspracticescenariobasedquestions/src/com)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
+👉 [Scenario-Based OOPs Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
+
 
 ---
 
@@ -653,8 +654,9 @@ BridgeLabz-Training
 - **FitnessTracker** – Daily Step Count Ranking
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
-👉 [Scenario-Based OOPs Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/oopspracticescenariobasedquestions/src/com)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
+👉 [Scenario-Based OOPs Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/Java-oops-practice/Java-oops-practice/scenario-based-codebase/scenariobased/src/com)
+
 
 ---
 
@@ -666,7 +668,7 @@ BridgeLabz-Training
 - **GamerZone** – High Score Ranking System 
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
 
 ---
 
@@ -677,7 +679,7 @@ BridgeLabz-Training
 - **MedWarehouse** – Sorting Medicines by Expiry
 
 🔗 **Code:**  
-👉 [Scenario-Based DSA Implementations](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DsaScenarioBasedPractice/src/com)
+👉 [Scenario-Based DSA Implementations](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based-codebase/DSAScenarioPractice/src/com)
 
 ---
 
@@ -687,7 +689,7 @@ BridgeLabz-Training
 - Learned basic vs buffered streams and performance benefits  
 - Practiced console input and file writing with reader/writer classes  
 
-🔗 **Code Link:** [Java File Handling & Streams Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/streams)
+🔗 **Code Link:** [Java File Handling & Streams Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-iostream-practice/java-iostreams-practice/gcr-codebase/java-iostrams-practice/src/main/java/com/JavaIOStreams)
 
 ---
 
@@ -699,7 +701,7 @@ BridgeLabz-Training
 - Practiced creating and using custom exceptions  
 - Focused on writing robust and maintainable code  
 
-🔗 **Code Link:** [Exception Handling Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/exceptions)
+🔗 **Code Link:** [Exception Handling Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/exceptions)
 
 ---
 
@@ -709,8 +711,9 @@ BridgeLabz-Training
 - Implemented regex use cases like email, password, and phone validation  
 - Worked with Java Regex API using `Pattern` and `Matcher`
   
-🔗 **Code Link:** [JUnit](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/junit)
-[regex](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/regex)
+🔗 **Code Link:** [JUnit](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/junit)
+
+🔗 **Code Link:** [Regex](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/regex)
 
 ---
 
@@ -721,7 +724,10 @@ BridgeLabz-Training
 - Explored built-in and custom annotations  
 - Used reflection to process annotations at runtime  
 
-🔗 **Code Link:**  [Reflection & Annotations Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/reflection)
+🔗 **Code Link:**  [Reflection ](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/reflection)
+
+🔗 **Code Link:**  [Annotations Practice]
+(https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionconcepts/src/com/annotations/exerciseproblems)
 
 ---
 
@@ -757,23 +763,8 @@ Focus: Working with JSON Data in Java Applications
 - Implemented real-world Java scenarios using **Collections, I/O, Regex, and Generics**.  
 - Built **MedInventory, ChatLogParser, SongVault, and ExamResultUploader**.  
 
-🔗 **Code Link:**  [Scenario-Based Questions](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioBasedPractice/src/com)
+🔗 **Code:** [JSON Handling Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-iostream-practice/java-iostreams-practice/gcr-codebase/java-iostrams-practice/src/main/java/com/json)
 
-🔗 **Code:** [JSON Handling Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamConcepts/src/main/java/com/json)
-
-
----
-
-## Day 3 – Java I/O & Metadata: Scenario-Based Practice
-**Date:** 27-01-2026 | **Focus:** Annotations, Reflection, CSV & JSON Handling
-
-- Worked on **Annotations & Reflection** for metadata-driven applications  
-- Implemented **HealthCheckPro**: scan API methods using custom annotations  
-- Built **MarkMate**: read CSV, process student marks, generate JSON report cards  
-- Developed **EventTracker**: detect annotated methods, produce JSON audit logs  
-- Focused on **robust data processing** with exception handling and clean code  
-
-🔗 **Code Link:** [IO Scenario-Based Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based-codebase/IOStreamsScenarioPractice/src/com)
 
 ---
 
@@ -788,7 +779,7 @@ Focus: Working with JSON Data in Java Applications
 - **Marker Interfaces** → metadata without methods  
 - **Applied in examples** → readability, maintainability, Streams prep  
 
-🔗 **Code Link:** [Java 8 Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
+🔗 **Code Link:** [Java 8 Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com)
 
 ---
 
@@ -803,7 +794,7 @@ Focus: Working with JSON Data in Java Applications
 - Common collectors: **toList(), toSet(), toMap(), groupingBy(), counting()**  
 - Applied in **Smart City Transport System**: filter schedules, live dashboard, passenger trip analysis  
 
-🔗 **Code Link:** [Java 8 Streams Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
+🔗 **Code Link:** [Java 8 Streams Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com)
 
 ---
 # Week 7 : Java Design Principles & Design Patterns
@@ -815,7 +806,7 @@ Focus: Working with JSON Data in Java Applications
 - **Liskov Substitution Principle (LSP)**
 - **Interface Segregation Principle (ISP)**
 - **Dependency Inversion Principle (DIP)**
-👉 [SOLID Principles](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/JavaDesignPatternConcepts/src/com/studentlibrarymanagementsystem)
+👉 [Design patterns](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/JavaDesignPatternPractice/src/com/designpatterns)
 
 ---
 
@@ -826,7 +817,7 @@ Focus: Working with JSON Data in Java Applications
 - Learned multithreading basics, thread lifecycle, and thread creation (Thread, Runnable, Callable).  
 - Practiced synchronization, thread safety, and inter-thread communication (wait/notify).  
 
-👉 [Day 2 – Java Multithreading Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/JavaDesignPatternConcepts/src/com/javamultithreading)
+👉 [Day 2 – Java Multithreading Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/JavaDesignPatternPractice/src/com/multithreading)
 
 ---
 
@@ -847,7 +838,7 @@ On this day, I built a strong foundation in **MySQL** to understand how relation
 - Learned the concept of **transactions** and why they are critical for maintaining reliable database operations.
 
   🔗 *Code Link:*  
-👉 [Day 1 – MySQL Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/MySQLJdbcConcepts/src/com/mysqlpractice)
+👉 [Day 1 – MySQL Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dbms-jdbc-practice/gcr-codebase/sqlpractice/src/sqlpractice/com/mysqlpracticeexercise)
 
 ---
 
@@ -866,6 +857,6 @@ On this day, I applied database and JDBC knowledge to a **practical, end-to-end 
   visit history, doctor schedules, billing summaries, and revenue-related insights.
 
   🔗 *Code Link:*  
-👉 [Day 2 – JDBC & Database Scenario-Based Practice](https://github.com/keshavvyadavv/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/scenario-based-codebase/MySQLScenarioBasedPractice/src/com/mysqlpractice)
+👉 [Day 2 – JDBC & Database Scenario-Based Practice](https://github.com/Aviral00Jain/Bridgelabz-Training/tree/dbms-jdbc-practice/gcr-codebase/jdbc/src/main/java/com/jdbc)
 
 
