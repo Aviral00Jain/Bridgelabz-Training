@@ -2,107 +2,300 @@ package com.healthclinic.HealthClinicJDBC.main;
 
 import java.util.Scanner;
 
+import com.healthclinic.HealthClinicJDBC.dao.AppointmentDAO;
+import com.healthclinic.HealthClinicJDBC.dao.DoctorDAO;
 import com.healthclinic.HealthClinicJDBC.dao.PatientDAO;
+import com.healthclinic.HealthClinicJDBC.model.Appointment;
+import com.healthclinic.HealthClinicJDBC.model.Doctor;
 import com.healthclinic.HealthClinicJDBC.model.Patient;
 
 public class Main {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-        PatientDAO patientDAO = new PatientDAO();
+		PatientDAO patientDAO = new PatientDAO();
+		DoctorDAO doctorDAO = new DoctorDAO();
+		AppointmentDAO appointmentDAO = new AppointmentDAO();
 
-        int choice;
+		int choice;
 
-        do {
+		do {
 
-            System.out.println("\n========== HEALTH CLINIC MANAGEMENT ==========");
-            System.out.println("1. Add Patient");
-            System.out.println("2. View All Patients");
-            System.out.println("3. Search Patient By ID");
-            System.out.println("4. Update Patient");
-            System.out.println("5. Delete Patient");
-            System.out.println("6. Exit");
-            System.out.print("Enter Your Choice : ");
+			System.out.println("\n========== HEALTH CLINIC MANAGEMENT ==========\n");
 
-            choice = sc.nextInt();
+			System.out.println("----------- PATIENT -----------");
+			System.out.println("1. Add Patient");
+			System.out.println("2. View All Patients");
+			System.out.println("3. Search Patient");
+			System.out.println("4. Update Patient");
+			System.out.println("5. Delete Patient");
 
-            switch (choice) {
+			System.out.println();
 
-            case 1:
+			System.out.println("----------- DOCTOR ------------");
+			System.out.println("6. Add Doctor");
+			System.out.println("7. View All Doctors");
+			System.out.println("8. Search Doctor");
+			System.out.println("9. Update Doctor");
+			System.out.println("10. Delete Doctor");
 
-                Patient patient = new Patient();
+			System.out.println();
 
-                sc.nextLine(); // Buffer Clear
+			System.out.println("-------- APPOINTMENT ----------");
+			System.out.println("11. Add Appointment");
+			System.out.println("12. View All Appointments");
+			System.out.println("13. Search Appointment");
+			System.out.println("14. Update Appointment Status");
+			System.out.println("15. Delete Appointment");
+			System.out.println("16. View Appointment Details (JOIN)");
+			System.out.println("17. Generate Random Appointments (Stored Procedure)");
+			System.out.println("18. Book Appointment (Transaction)");
+			System.out.println("19. Exit");
 
-                System.out.print("Enter Patient Name : ");
-                patient.setName(sc.nextLine());
+			System.out.print("\nEnter Your Choice : ");
 
-                System.out.print("Enter Phone Number : ");
-                patient.setPhone(sc.nextLine());
+			choice = sc.nextInt();
 
-                System.out.print("Enter DOB (yyyy-mm-dd) : ");
-                patient.setDob(sc.nextLine());
+			switch (choice) {
 
-                patientDAO.insertPatient(patient);
+			// ================= PATIENT =================
 
-                break;
+			case 1:
 
-            case 2:
+				Patient patient = new Patient();
 
-                patientDAO.getAllPatients();
+				sc.nextLine();
 
-                break;
+				System.out.print("Enter Patient Name : ");
+				patient.setName(sc.nextLine());
 
-            case 3:
+				System.out.print("Enter Phone : ");
+				patient.setPhone(sc.nextLine());
 
-                System.out.print("Enter Patient ID : ");
-                int id = sc.nextInt();
+				System.out.print("Enter DOB (yyyy-mm-dd) : ");
+				patient.setDob(sc.nextLine());
 
-                patientDAO.searchPatientById(id);
+				patientDAO.insertPatient(patient);
 
-                break;
+				break;
 
-            case 4:
+			case 2:
 
-                System.out.print("Enter Patient ID : ");
-                int updateId = sc.nextInt();
+				patientDAO.getAllPatients();
 
-                sc.nextLine();
+				break;
 
-                System.out.print("Enter New Phone Number : ");
-                String phone = sc.nextLine();
+			case 3:
 
-                patientDAO.updatePatient(updateId, phone);
+				System.out.print("Enter Patient ID : ");
 
-                break;
+				patientDAO.searchPatientById(sc.nextInt());
 
-            case 5:
+				break;
 
-                System.out.print("Enter Patient ID : ");
-                int deleteId = sc.nextInt();
+			case 4:
 
-                patientDAO.deletePatient(deleteId);
+				System.out.print("Enter Patient ID : ");
 
-                break;
+				int patientId = sc.nextInt();
 
-            case 6:
+				sc.nextLine();
 
-                System.out.println("Thank You!");
+				System.out.print("Enter New Phone : ");
 
-                break;
+				String phone = sc.nextLine();
 
-            default:
+				patientDAO.updatePatient(patientId, phone);
 
-                System.out.println("Invalid Choice!");
+				break;
 
-            }
+			case 5:
 
-        } while (choice != 6);
+				System.out.print("Enter Patient ID : ");
 
-        sc.close();
+				patientDAO.deletePatient(sc.nextInt());
 
-    }
+				break;
 
-}
+			// ================= DOCTOR =================
+
+			case 6:
+
+				Doctor doctor = new Doctor();
+
+				sc.nextLine();
+
+				System.out.print("Enter Doctor Name : ");
+
+				doctor.setName(sc.nextLine());
+
+				System.out.print("Enter Specialty : ");
+
+				doctor.setSpecialty(sc.nextLine());
+
+				doctorDAO.insertDoctor(doctor);
+
+				break;
+
+			case 7:
+
+				doctorDAO.getAllDoctors();
+
+				break;
+
+			case 8:
+
+				System.out.print("Enter Doctor ID : ");
+
+				doctorDAO.searchDoctorById(sc.nextInt());
+
+				break;
+
+			case 9:
+
+				System.out.print("Enter Doctor ID : ");
+
+				int doctorId = sc.nextInt();
+
+				sc.nextLine();
+
+				System.out.print("Enter New Specialty : ");
+
+				String specialty = sc.nextLine();
+
+				doctorDAO.updateDoctor(doctorId, specialty);
+
+				break;
+
+			case 10:
+
+				System.out.print("Enter Doctor ID : ");
+
+				doctorDAO.deleteDoctor(sc.nextInt());
+
+				break;
+				// ================= APPOINTMENT =================
+
+				case 11:
+
+					Appointment appointment = new Appointment();
+
+					System.out.print("Enter Patient ID : ");
+					appointment.setPatientId(sc.nextInt());
+
+					System.out.print("Enter Doctor ID : ");
+					appointment.setDoctorId(sc.nextInt());
+
+					sc.nextLine();
+
+					System.out.print("Enter Appointment Date (yyyy-mm-dd hh:mm:ss) : ");
+					appointment.setAppointmentDate(sc.nextLine());
+
+					System.out.print("Enter Status : ");
+					appointment.setStatus(sc.nextLine());
+
+					appointmentDAO.insertAppointment(appointment);
+
+					break;
+
+				case 12:
+
+					appointmentDAO.getAllAppointments();
+
+					break;
+
+				case 13:
+
+					System.out.print("Enter Appointment ID : ");
+
+					appointmentDAO.searchAppointmentById(sc.nextInt());
+
+					break;
+
+				case 14:
+
+					System.out.print("Enter Appointment ID : ");
+
+					int appointmentId = sc.nextInt();
+
+					sc.nextLine();
+
+					System.out.print("Enter New Status : ");
+
+					String status = sc.nextLine();
+
+					appointmentDAO.updateAppointmentStatus(appointmentId, status);
+
+					break;
+
+				case 15:
+
+					System.out.print("Enter Appointment ID : ");
+
+					appointmentDAO.deleteAppointment(sc.nextInt());
+
+					break;
+
+				case 16:
+
+					appointmentDAO.showAppointmentDetails();
+
+					break;
+
+				// ============== STORED PROCEDURE ==============
+
+				case 17:
+
+					System.out.print("Enter Number of Random Appointments : ");
+
+					int count = sc.nextInt();
+
+					appointmentDAO.seedAppointments(count);
+
+					break;
+
+				// ================ TRANSACTION =================
+
+				case 18:
+
+					Appointment transactionAppointment = new Appointment();
+
+					System.out.print("Enter Patient ID : ");
+					transactionAppointment.setPatientId(sc.nextInt());
+
+					System.out.print("Enter Doctor ID : ");
+					transactionAppointment.setDoctorId(sc.nextInt());
+
+					sc.nextLine();
+
+					System.out.print("Enter Appointment Date (yyyy-mm-dd hh:mm:ss) : ");
+					transactionAppointment.setAppointmentDate(sc.nextLine());
+
+					System.out.print("Enter Status : ");
+					transactionAppointment.setStatus(sc.nextLine());
+
+					appointmentDAO.bookAppointmentTransaction(transactionAppointment);
+
+					break;
+
+				case 19:
+
+					System.out.println("\nThank You...!");
+
+					break;
+
+				default:
+
+					System.out.println("Invalid Choice");
+
+				}
+
+			} while (choice != 19);
+
+			sc.close();
+
+		}
+
+	}
