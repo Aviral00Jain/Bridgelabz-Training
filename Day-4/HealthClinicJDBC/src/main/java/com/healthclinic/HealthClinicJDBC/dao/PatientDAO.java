@@ -21,7 +21,7 @@ public class PatientDAO {
 
             connection = DBConnection.getConnection();
 
-            String query = "INSERT INTO patient(name, phone, dob) VALUES(?,?,?)";
+            String query = "INSERT INTO patient(name,phone,dob) VALUES(?,?,?)";
 
             preparedStatement = connection.prepareStatement(query);
 
@@ -32,13 +32,21 @@ public class PatientDAO {
             int rows = preparedStatement.executeUpdate();
 
             if (rows > 0) {
-                System.out.println("Patient Inserted Successfully");
+
+                System.out.println("Patient Added Successfully");
+
+            } else {
+
+                System.out.println("Patient Not Added");
+
             }
 
             connection.close();
 
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
 
     }
@@ -60,16 +68,20 @@ public class PatientDAO {
             while (resultSet.next()) {
 
                 System.out.println("--------------------------------");
+
                 System.out.println("Patient ID : " + resultSet.getInt("patient_id"));
                 System.out.println("Name       : " + resultSet.getString("name"));
                 System.out.println("Phone      : " + resultSet.getString("phone"));
-                System.out.println("DOB        : " + resultSet.getDate("dob"));
+                System.out.println("DOB        : " + resultSet.getString("dob"));
+
             }
 
             connection.close();
 
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
 
     }
@@ -93,10 +105,11 @@ public class PatientDAO {
             if (resultSet.next()) {
 
                 System.out.println("--------------------------------");
+
                 System.out.println("Patient ID : " + resultSet.getInt("patient_id"));
                 System.out.println("Name       : " + resultSet.getString("name"));
                 System.out.println("Phone      : " + resultSet.getString("phone"));
-                System.out.println("DOB        : " + resultSet.getDate("dob"));
+                System.out.println("DOB        : " + resultSet.getString("dob"));
 
             } else {
 
@@ -107,7 +120,9 @@ public class PatientDAO {
             connection.close();
 
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
 
     }
@@ -130,15 +145,21 @@ public class PatientDAO {
             int rows = preparedStatement.executeUpdate();
 
             if (rows > 0) {
+
                 System.out.println("Patient Updated Successfully");
+
             } else {
+
                 System.out.println("Patient Not Found");
+
             }
 
             connection.close();
 
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
 
     }
@@ -160,15 +181,21 @@ public class PatientDAO {
             int rows = preparedStatement.executeUpdate();
 
             if (rows > 0) {
+
                 System.out.println("Patient Deleted Successfully");
+
             } else {
+
                 System.out.println("Patient Not Found");
+
             }
 
             connection.close();
 
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
 
     }
