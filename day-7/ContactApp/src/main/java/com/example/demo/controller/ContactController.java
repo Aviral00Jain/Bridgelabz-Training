@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.dto.ContactDTO;
 import com.example.demo.service.ContactService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping("/api/contacts")
 public class ContactController {
@@ -26,15 +28,17 @@ public class ContactController {
         this.contactService = contactService;
     }
 
+    // CREATE CONTACT
     @PostMapping
     public ResponseEntity<ContactDTO> createContact(
-            @RequestBody ContactDTO contactDTO) {
+            @Valid @RequestBody ContactDTO contactDTO) {
 
         ContactDTO savedContact = contactService.createContact(contactDTO);
 
         return new ResponseEntity<>(savedContact, HttpStatus.CREATED);
     }
 
+    // GET ALL CONTACTS
     @GetMapping
     public ResponseEntity<List<ContactDTO>> getAllContacts() {
 
@@ -43,6 +47,7 @@ public class ContactController {
         return ResponseEntity.ok(contacts);
     }
 
+    // GET CONTACT BY ID
     @GetMapping("/{id}")
     public ResponseEntity<ContactDTO> getContactById(
             @PathVariable Long id) {
@@ -52,10 +57,11 @@ public class ContactController {
         return ResponseEntity.ok(contact);
     }
 
+    // UPDATE CONTACT
     @PutMapping("/{id}")
     public ResponseEntity<ContactDTO> updateContact(
             @PathVariable Long id,
-            @RequestBody ContactDTO contactDTO) {
+            @Valid @RequestBody ContactDTO contactDTO) {
 
         ContactDTO updatedContact =
                 contactService.updateContact(id, contactDTO);
@@ -63,6 +69,7 @@ public class ContactController {
         return ResponseEntity.ok(updatedContact);
     }
 
+    // DELETE CONTACT
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteContact(
             @PathVariable Long id) {
