@@ -2,22 +2,26 @@ package com.example.dto.response;
 
 public class DepartmentResponseDTO {
 
-    private int departmentId;
+    private Long departmentId;
+
     private String departmentName;
 
     public DepartmentResponseDTO() {
     }
 
-    public DepartmentResponseDTO(int departmentId, String departmentName) {
+    public DepartmentResponseDTO(
+            Long departmentId,
+            String departmentName) {
+
         this.departmentId = departmentId;
         this.departmentName = departmentName;
     }
 
-    public int getDepartmentId() {
+    public Long getDepartmentId() {
         return departmentId;
     }
 
-    public void setDepartmentId(int departmentId) {
+    public void setDepartmentId(Long departmentId) {
         this.departmentId = departmentId;
     }
 
