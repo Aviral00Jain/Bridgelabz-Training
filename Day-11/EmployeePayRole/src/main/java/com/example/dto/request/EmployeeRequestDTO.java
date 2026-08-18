@@ -1,11 +1,28 @@
 package com.example.dto.request;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+
 public class EmployeeRequestDTO {
 
+    @NotBlank(message = "Employee name is required")
     private String employeeName;
+
+    @NotBlank(message = "Email is required")
+    @Email(message = "Invalid email format")
     private String email;
+
+    @NotNull(message = "Salary is required")
+    @Positive(message = "Salary must be greater than 0")
     private Long salary;
+
+    @NotBlank(message = "Role is required")
     private String role;
+
+    @NotNull(message = "Department ID is required")
+    @Positive(message = "Department ID must be greater than 0")
     private Long departmentId;
 
     public EmployeeRequestDTO() {
