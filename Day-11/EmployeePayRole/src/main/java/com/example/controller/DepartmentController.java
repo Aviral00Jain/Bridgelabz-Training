@@ -1,94 +1,155 @@
 package com.example.controller;
 
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import com.example.entity.Department;
+import com.example.dto.request.DepartmentRequestDTO;
+import com.example.dto.response.DepartmentResponseDTO;
 import com.example.service.DepartmentService;
+
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/departments")
+@Tag(
+        name = "Department Management",
+        description = "APIs for managing departments")
 public class DepartmentController {
 
     private final DepartmentService service;
 
-    public DepartmentController(DepartmentService service) {
+    public DepartmentController(
+            DepartmentService service) {
+
         this.service = service;
     }
 
-    // CREATE
+    @Operation(
+            summary = "Create department",
+            description = "Creates a new department.")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "201",
+                description = "Department created successfully"),
+        @ApiResponse(
+                responseCode = "400",
+                description = "Invalid department data")
+    })
     @PostMapping
-    public ResponseEntity<Department> create(
-            @RequestBody Department department) {
+    public ResponseEntity<DepartmentResponseDTO> create(
+            @Valid @RequestBody DepartmentRequestDTO request) {
 
-        return new ResponseEntity<>(
-                service.save(department),
-                HttpStatus.CREATED);
+        return ResponseEntity
+                .status(HttpStatus.CREATED)
+                .body(service.save(request));
     }
 
-    // GET ALL
+    @Operation(
+            summary = "Get all departments",
+            description = "Returns departments with pagination and sorting.")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "200",
+                description = "Departments retrieved successfully")
+    })
     @GetMapping
-    public ResponseEntity<?> getAll() {
+    public ResponseEntity<Page<DepartmentResponseDTO>> getAll(
+            @PageableDefault(
+                    page = 0,
+                    size = 5,
+                    sort = "departmentName",
+                    direction = Sort.Direction.ASC)
+            Pageable pageable) {
 
         return ResponseEntity.ok(
-                service.findAll());
+                service.findAll(pageable));
     }
 
-    // GET BY ID
+    @Operation(
+            summary = "Get department by ID",
+            description = "Retrieves a department using its ID.")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "200",
+                description = "Department found"),
+        @ApiResponse(
+                responseCode = "404",
+                description = "Department not found")
+    })
     @GetMapping("/{id}")
-    public ResponseEntity<Department> getById(
+    public ResponseEntity<DepartmentResponseDTO> getById(
+            @Parameter(
+                    description = "Department ID",
+                    example = "1")
             @PathVariable Long id) {
 
         return ResponseEntity.ok(
                 service.findById(id));
     }
 
-    // UPDATE
+    @Operation(
+            summary = "Update department",
+            description = "Updates an existing department using its ID.")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "200",
+                description = "Department updated successfully"),
+        @ApiResponse(
+                responseCode = "400",
+                description = "Invalid department data"),
+        @ApiResponse(
+                responseCode = "404",
+                description = "Department not found")
+    })
     @PutMapping("/{id}")
-    public ResponseEntity<Department> update(
+    public ResponseEntity<DepartmentResponseDTO> update(
+            @Parameter(
+                    description = "Department ID",
+                    example = "1")
             @PathVariable Long id,
-            @RequestBody Department department) {
+            @Valid @RequestBody DepartmentRequestDTO request) {
 
         return ResponseEntity.ok(
-                service.update(id, department));
+                service.update(id, request));
     }
 
-    // DELETE
+    @Operation(
+            summary = "Delete department",
+            description = "Deletes a department using its ID.")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "204",
+                description = "Department deleted successfully"),
+        @ApiResponse(
+                responseCode = "404",
+                description = "Department not found")
+    })
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> delete(
+    public ResponseEntity<Void> delete(
+            @Parameter(
+                    description = "Department ID",
+                    example = "1")
             @PathVariable Long id) {
 
         service.delete(id);
 
-        return ResponseEntity.ok(
-                "Department deleted successfully");
-    }
-
-    // PAGINATION + SORTING
-    @GetMapping("/page")
-    public ResponseEntity<Page<Department>> getDepartments(
-            @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size,
-            @RequestParam(defaultValue = "departmentId") String sortBy,
-            @RequestParam(defaultValue = "asc") String direction) {
-
-        Sort sort;
-
-        if (direction.equalsIgnoreCase("desc")) {
-            sort = Sort.by(sortBy).descending();
-        } else {
-            sort = Sort.by(sortBy).ascending();
-        }
-
-        Pageable pageable =
-                PageRequest.of(page, size, sort);
-
-        return ResponseEntity.ok(
-                service.findAll(pageable));
+        return ResponseEntity.noContent().build();
     }
 }
