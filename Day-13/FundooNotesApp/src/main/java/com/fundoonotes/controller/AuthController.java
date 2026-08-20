@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fundoonotes.dto.AuthResponse;
+import com.fundoonotes.dto.ForgotPasswordRequest;
 import com.fundoonotes.dto.LoginRequest;
 import com.fundoonotes.dto.RegisterRequest;
+import com.fundoonotes.dto.ResetPasswordRequest;
 import com.fundoonotes.service.UserService;
 
 import jakarta.validation.Valid;
@@ -38,5 +40,21 @@ public class AuthController {
         String token = userService.login(request);
 
         return ResponseEntity.ok(new AuthResponse(token));
+    }
+    
+    @PostMapping("/forgot-password")
+    public ResponseEntity<String> forgotPassword(@Valid @RequestBody ForgotPasswordRequest request) {
+
+        String token = userService.forgotPassword(request.getEmail());
+
+        return ResponseEntity.ok(token);
+    }
+    
+    @PostMapping("/reset-password")
+    public ResponseEntity<String> resetPassword(@Valid @RequestBody ResetPasswordRequest request) {
+
+        userService.resetPassword(request.getToken(),request.getNewPassword());
+
+        return ResponseEntity.ok("Password reset successful");
     }
 }
