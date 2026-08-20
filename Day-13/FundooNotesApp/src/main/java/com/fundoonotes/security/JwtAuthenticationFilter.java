@@ -1,6 +1,7 @@
 package com.fundoonotes.security;
 
 import java.io.IOException;
+import java.util.Collections;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -28,8 +29,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             FilterChain filterChain)
             throws ServletException, IOException {
 
-    	
-    	
         String authHeader = request.getHeader("Authorization");
 
         if (authHeader != null && authHeader.startsWith("Bearer ")) {
@@ -39,9 +38,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             if (jwtUtil.isTokenValid(token)) {
 
                 String userId = jwtUtil.extractUserId(token);
-                String email = jwtUtil.extractEmail(token);
 
-                UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(email,null,null);
+                UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userId,null,Collections.emptyList());
 
                 SecurityContextHolder.getContext().setAuthentication(authentication);
             }
