@@ -18,19 +18,7 @@ public class SecurityConfig {
 	    this.jwtAuthenticationFilter = jwtAuthenticationFilter;
 	}	
 
-// IN-MEMORY AUTHENTICATION - USED BEFORE JWT
-//
-// @Bean
-// public UserDetailsService userDetailsService() {
-//
-//	     UserDetails user = User
-//	             .withUsername("Vaidik")
-//	             .password("{Vaidik}123")
-//	             .roles("USER")
-//	             .build();
-//
-//	     return new InMemoryUserDetailsManager(user);
-// }
+
 		
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
